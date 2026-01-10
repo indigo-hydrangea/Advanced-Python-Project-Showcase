@@ -8,3 +8,4 @@ Given _n_ employees (where n is even), schedule weekly coffee chats so that:
 
 ## Solution
 The program generates **n/2 pairs per week** for **n − 1 weeks** using round-robin rotation; one position is held fixed while the others rotate each week, producing a complete set of unique pairings.
+A doc string-contained sample output is included at the end of the program.

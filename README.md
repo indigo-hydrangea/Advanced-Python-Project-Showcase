@@ -1,8 +1,10 @@
 # Advanced-Python-Project-Showcase
-Python project showcasing proficiency in advanced data structures, algorithms, and object-oriented programming (OOP) principles.
+A Python project that demonstrates custom data structures (`Array`, `Grid`), algorithmic thinking, and object-oriented programming by generating a **round-robin** schedule of weekly 1:1 coffee chats.
 
-Problem: 
-An employer with n even number of employees wants to schedule coffee chats between pairs of employees to improve within-team communiciation. Each week, each employee should meet with one other employee, with whom they have not met before, until each employee has met with one everyone.
+## Problem
+Given _n_ employees (where n is even), schedule weekly coffee chats so that:
+- each week, every employee meets with **exactly one** other employee, and
+- across the full schedule, each employee meets **every other employee exactly once**.
 
-Solution:
-n/2 pairs are scheduled each week across n-1 weeks in accordance with round-robin logic
+## Solution (Round-Robin / “Circle Method”)
+The program generates **n/2 pairs per week** for **n − 1 weeks** using round-robin rotation; one position is held fixed while the others rotate each week, producing a complete set of unique pairings.
